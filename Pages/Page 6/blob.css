@@ -329,3 +329,16 @@
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    #up1, #up2, #up3, #up4, #up5, #up6 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #down {
+        width: 200px;
+        height: 200px;
+    }
+}

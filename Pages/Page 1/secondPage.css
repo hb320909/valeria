@@ -143,3 +143,66 @@ a{
     text-decoration: none;
     color: rgb(238, 203, 203);
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    * {
+        overflow: visible;
+    }
+
+    .container {
+        height: auto;
+        min-height: 60vh;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        padding: 0 1rem;
+    }
+
+    .beauti, .gorg, .wow {
+        font-size: 1.8rem;
+        -webkit-text-stroke: 2px darkmagenta;
+    }
+
+    #beauti, #gorg, #wow {
+        padding: 1rem 0;
+    }
+
+    #gorg {
+        text-align: center;
+    }
+
+    #wow {
+        text-align: center;
+    }
+
+    #center {
+        margin: 2rem 0;
+    }
+
+    .chori-chori {
+        padding: 0 1rem;
+    }
+
+    .watermark {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 0.75rem;
+    }
+}

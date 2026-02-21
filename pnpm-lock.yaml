@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      flagsmith:
+        specifier: ^3.24.0
+        version: 3.24.0
+
+packages:
+
+  flagsmith@3.24.0:
+    resolution: {integrity: sha512-X+ELfgra30d6zsgwyr4OkS3juT3+xsnCuPZLwHbBrOmh5b+KN/28ZbpqAH8YI5jRjJ7Z6AxfK1zGFIt82kXINA==}
+    deprecated: This package has moved to @flagsmith/flagsmith. Please update your dependencies.
+
+snapshots:
+
+  flagsmith@3.24.0: {}
