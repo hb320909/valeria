@@ -92,3 +92,61 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        overflow: auto;
+        padding-bottom: 3rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        margin: 2rem 0 0;
+    }
+
+    img {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        height: auto;
+        max-width: 70vw;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        gap: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .romantic1, .romantic2, .romantic3, .romantic4,
+    .romantic5, .romantic6, .romantic7 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 0.5rem auto;
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .watermark {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 0.75rem;
+    }
+}

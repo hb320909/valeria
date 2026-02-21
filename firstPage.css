@@ -63,3 +63,43 @@ a{
     text-decoration: none;
     color: rgb(238, 203, 203);
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    body.hovered {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #image {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .btn {
+        position: relative;
+        top: auto;
+        margin-top: 2rem;
+        min-width: 100px;
+        padding: 0.6rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .watermark {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 0.75rem;
+    }
+}
