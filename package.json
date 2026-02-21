@@ -1,9 +1,10 @@
 {
+  "name": "ask-her-out",
   "dependencies": {
     "flagsmith": "^3.24.0",
     "serve": "^14.2.0"
   },
   "scripts": {
-    "dev": "serve . -l 3000 --no-clipboard"
+    "dev": "npx serve . -l 3000 --no-clipboard"
   }
 }
